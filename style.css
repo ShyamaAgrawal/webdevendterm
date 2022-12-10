@@ -1,0 +1,164 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: black;
+    font-size: xx-large;
+}
+#navi{
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+#navside{
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 15px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 550;
+
+}
+ul li a:hover{
+    color: rgb(29, 98, 126);
+
+}
+#logo img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    color: blue;
+
+}
+#abc{
+    display: flex;
+    align-items: center;
+}
+#john img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#john{
+    display: flex;
+    align-items: center;
+}
+#idk{
+    display: flex;
+    align-items: center;
+    
+}
+#idk div{
+    margin: 10px;
+}
+#main{
+    display: flex;
+    
+}
+#sidebar{
+    width: 20%;
+    /* border: 1px solid black; */
+    margin: 0px 20px;
+    padding: 10px;
+    line-height: 2;
+}
+#middleside{
+    /* border: 1px solid black; */
+    width: 80%;
+}
+#box button:nth-of-type(1){
+    color: rgb(7, 44, 65);
+    background-color: rgb(178, 202, 211);
+    border: none;
+    font-size: large;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin: 1px;
+}
+#box button:nth-of-type(2){
+    color: rgb(7, 44, 65);
+    background-color: rgb(178, 202, 211);
+    border: none;
+    font-size: large;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin: 1px;
+}
+#box button:nth-of-type(3){
+    color: rgb(7, 44, 65);
+    background-color: rgb(178, 202, 211);
+    border: none;
+    font-size: large;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+#box button:nth-of-type(4){
+    color: white;
+    background-color: rgb(12, 66, 87);
+    border: none;
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 2px;
+}
+#box button:nth-of-type(5){
+    color: black;
+    background-color: rgb(199, 190, 190);
+    border: none;
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+}
+#box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px;
+}
+#horror{
+    display: flex;
+    
+}
+#box img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+#job{
+    background-color: rgb(204, 228, 238);
+    padding: 10px;
+    border-radius: 10px;
+}
+#job button{
+    color: white;
+    background-color: rgb(12, 66, 87);
+    border: none;
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 2px;
+}
+#key{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#box:hover{
+    transform: scale(1.09); 
+}
